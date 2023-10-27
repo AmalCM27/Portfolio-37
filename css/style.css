@@ -129,23 +129,20 @@ section {
 }
 
 .btn {
+	padding: 12px 24px;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+	width: 180px;
+	height: 48px;
 	border-radius: 118px;
 	border: 1.5px solid var(--neutral-07, #2C2F24);
-	color: var(--neutral-07, #182226);
-	text-align: right;
-
-	/* Body/16px/Bold */
-	font-family: DM Sans;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 24px;
-	/* 150% */
+	display: inline-flex;
 }
 
 .btn:hover {
 	background: #2C2F24;
-	color: fff;
+	color: #fff;
 }
 
 .link {
@@ -163,3 +160,43 @@ section {
 }
 
 /* header */
+
+.head {
+	padding: 20px 0;
+	margin-top: 15px;
+}
+
+.menu a {
+	padding: 4px 16px;
+	margin-right: 8px;
+	color: #2C2F24;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	border-radius: 34px;
+	transition: 0.5s;
+}
+
+.menu li:last-child a {
+	margin: 0%;
+}
+
+.menu a:hover {
+	background: #D8DFD0;
+}
+
+.sec_tot{
+	/* Best food for your taste */
+width: 667px;
+height: 192px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 96px;
+text-align: center;
+color: #2C2F24;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
